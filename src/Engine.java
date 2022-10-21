@@ -4,7 +4,8 @@ import java.io.InputStreamReader;
 
 public class Engine {
     public static double bmiCalculator(double height, double weight) {
-        return weight / Math.sqrt(height/100);
+        GUI.setSavedBMI(weight / Math.sqrt(height/100));
+        return (weight / Math.sqrt(height/100));
     }
     public static String getKeyboardValue () {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
