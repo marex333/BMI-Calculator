@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) {
-        GUI.showMenu();
+        while(true) {
+            GUI.showMenu();
+        }
+
     }
 }
