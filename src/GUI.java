@@ -33,9 +33,6 @@ public class GUI {
     public static void showOption1Weight() {
     System.out.println("Podaj swóją wagę[kg]: ");
     }
-    public static void showSavedBMI() {
-        System.out.println(getSavedBMI());
-    }
     public static void showBMIMeaning (int bmiCode) {
         switch (bmiCode) {
             case 1 -> System.out.println("Niedowaga!");
