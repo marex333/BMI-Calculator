@@ -9,7 +9,6 @@ public class BMIDB {
     public ArrayList<BMI> getBmiArrayList() {
         return bmiArrayList;
     }
-
     public double findByID (int id) {
         for (BMI bmi : bmiArrayList) {
             if (bmi.getID() == id) {
@@ -18,7 +17,6 @@ public class BMIDB {
         }
         return 0;
     }
-
     public void addToBMIDB (BMI bmi) {
         bmiArrayList.add(bmi);
     }
