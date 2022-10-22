@@ -4,15 +4,12 @@ import Model.BMI;
 import java.util.ArrayList;
 
 public class BMIDB {
-    private ArrayList<BMI> bmiArrayList = new ArrayList<BMI>();
+    private ArrayList<BMI> bmiArrayList = new ArrayList<>();
 
     public ArrayList<BMI> getBmiArrayList() {
         return bmiArrayList;
     }
 
-    private void addToDB(BMI bmi) {
-        bmiArrayList.add(bmi);
-    }
     public double findByID (int id) {
         for (BMI bmi : bmiArrayList) {
             if (bmi.getID() == id) {
@@ -21,6 +18,7 @@ public class BMIDB {
         }
         return 0;
     }
+
     public void addToBMIDB (BMI bmi) {
         bmiArrayList.add(bmi);
     }

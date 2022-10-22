@@ -1,4 +1,5 @@
 public class GUI {
+    private static String row = "//////////////////////////////////////////////////";
     private static String o1 = "1. Oblicz BMI\n";
     private static String o2 = "2. Przypomnij BMI\n";
     private static String o3 = "3. Exit";
@@ -13,7 +14,7 @@ public class GUI {
     }
 
     public static void showMenu() {
-        System.out.println(o1 + o2 + o3 + "\n\n\n //////////////////////////////////////////////////");
+        System.out.println(row + "\n" + o1 + o2 + o3 + "\n" + row);
     }
 
     public static void incorrectChoice() {

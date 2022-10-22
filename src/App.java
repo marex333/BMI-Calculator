@@ -37,10 +37,9 @@ public class App {
                     System.out.println();
 
                 }
-                case "3" -> {break;}
+                case "3" -> {}
                 default -> GUI.incorrectChoice();
             }
         }
-
     }
 }
